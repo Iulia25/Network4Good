@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul, ol{
+	list-style-type: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+img{
+	height: 100px;
+}
+
+#head-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#head-text p{
+	padding-bottom: 30px;
+}
+
+#head-text ol{
+	display: flex;
+	align-self: flex-end;
+}
+
+
+#content{
+	background-color: blue;
+}
+
+#up-part, #up-part ol{
+	display: flex;
+}
+
+#up-part{
+	justify-content: center;
+}
+
+#up-part li a{
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#up-part li {
+	border: 2px solid lightblue;
+	padding: 8px;
+}
+
+#main{
+	background-color: lightblue;
+	margin-left: 10px;
+}
+
+#main ul:nth-child(1){
+	display: flex;
+	background: aqua;
+}
+
+#main ul:nth-child(1) li{
+	margin: 3px;
+}
+
+#inside-main{
+	background-color: aquamarine;
+	padding:20px;
+	display: flex;
+}
+
+#left h3{
+	padding: 10px 0;
+	color: darkblue;
+}
+
+input{
+   margin: 4px 0;
+}
+
+#right{
+	width: 20%;
+}
+
+
+.box{
+	background-color: wheat;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.box h3{
+	padding-bottom: 5px;
+}
+
+.box h4, .box p, .box img{
+    margin-left: 10px;
+}
+
+.dots{
+	list-style-type: circle;
+}
