@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 
 a{
@@ -17,8 +18,20 @@ header{
 	background-color: #e6f3ff;
 }
 
+.go button{
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.go select{
+	padding: 10px;
+}
+
 img{
-	height: 60px;
+	height: 70px;
 }
 
 #head-text{
@@ -36,18 +49,24 @@ img{
 	align-self: flex-end;
 }
 
+#olcont{
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
 
 #content{
 	background-color: #003566;
 }
 
-#up-part, #up-part ol{
+#up-part{
 	display: flex;
 }
 
-#up-part{
-	justify-content: center;
+#up-part ol{
+	display: flex;
 }
+
 
 #up-part li a{
 	color: #fff;
@@ -57,6 +76,10 @@ img{
 #up-part li {
 	border-left: 2px solid #80c1ff;
 	padding: 8px;
+}
+
+#up-part li:nth-child(5){
+	border-right: 2px solid #80c1ff;;
 }
 
 #main{
@@ -92,7 +115,8 @@ img{
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #cc9900;
+	color: #b38600;
+	padding-top: 10px;
 }
 
 input{
@@ -108,7 +132,11 @@ input{
 }
 
 #double div{
-	margin-right: 20px;
+	margin-right: 40px;
+}
+
+.boximg{
+	margin: 20px 0;
 }
 
 
@@ -128,7 +156,7 @@ input{
 }
 
 .dots{
-	list-style-type: circle;
+	list-style-type: disc;
 	margin-left: 30px;
 }
 
