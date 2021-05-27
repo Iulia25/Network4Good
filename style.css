@@ -14,10 +14,11 @@ ul, ol{
 header{
 	display: flex;
 	justify-content: space-between;
+	background-color: #e6f3ff;
 }
 
 img{
-	height: 100px;
+	height: 60px;
 }
 
 #head-text{
@@ -37,7 +38,7 @@ img{
 
 
 #content{
-	background-color: blue;
+	background-color: #003566;
 }
 
 #up-part, #up-part ol{
@@ -54,33 +55,44 @@ img{
 }
 
 #up-part li {
-	border: 2px solid lightblue;
+	border-left: 2px solid #80c1ff;
 	padding: 8px;
 }
 
 #main{
-	background-color: lightblue;
+	background-color: #80c1ff;
 	margin-left: 10px;
 }
 
 #main ul:nth-child(1){
 	display: flex;
-	background: aqua;
+	background: #80c1ff;
+	padding: 5px;
 }
 
 #main ul:nth-child(1) li{
 	margin: 3px;
 }
 
+.line{
+	padding-right: 8px;
+}
+
 #inside-main{
-	background-color: aquamarine;
+	background-color: #e6f3ff;
 	padding:20px;
 	display: flex;
 }
 
 #left h3{
 	padding: 10px 0;
-	color: darkblue;
+}
+
+#bigbrownText{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #cc9900;
 }
 
 input{
@@ -91,11 +103,20 @@ input{
 	width: 20%;
 }
 
+#double{
+	display: flex;
+}
+
+#double div{
+	margin-right: 20px;
+}
+
 
 .box{
-	background-color: wheat;
+	background-color: #f2ffe6;
 	margin-bottom: 20px;
 	padding: 20px;
+	border: 2px solid #ffe6b3;
 }
 
 .box h3{
@@ -108,4 +129,9 @@ input{
 
 .dots{
 	list-style-type: circle;
+	margin-left: 30px;
+}
+
+h1,h2,h3,h4,h5{
+	color: #0073e6;
 }
